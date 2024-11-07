@@ -1,7 +1,7 @@
 \documentclass[10pt,a4paper]{article}
 
+\usepackage{tocloft}
 \usepackage{commons/course}
-
 \usepackage{listings}
 \usepackage{xcolor}
 
@@ -42,11 +42,21 @@
 	backgroundcolor=\color{backgroundcolor},
 }
 
+\newlistof{listofproblems}{lop}{\normalsize فهرست مسائل}
+\newcommand{\addproblem}[1]{\addcontentsline{lop}{listofproblems}{\protect\numberline{}#1}}
+
+
 \begin{document}
+
 
 \سربرگ{تمرین تئوری اول}{}{پاسخ‌دهنده: معین آعلی - 401105561}{استاد: دکتر مهران ریواده}
 
 
+\listoflistofproblems
+
+\bigskip
+\bigskip
+\hrule
 
 \مسئله{‌}
 \input{questions/1.tex}

@@ -2,6 +2,7 @@
 % By: Hamid Zarrabi-Zadeh
 % Licensed Under GPL
 
+
 \usepackage{fancyhdr}  % برای تنظیم سربرگ و پابرگ سفارشی
 \usepackage{lastpage}  % برای دسترسی به شماره آخرین صفحه
 \usepackage{listings}
@@ -10,10 +11,12 @@
 \usepackage[usenames,dvipsnames]{pstricks}
 \usepackage{enumitem,xifthen,xparse}
 \usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
 \usepackage[localise=on]{xepersian}
 \usepackage[noend]{algpseudocode}
 \usepackage{physics}
+
+
 
 
 %--------------------- Font settings ----------------------
@@ -109,10 +112,23 @@
 
 
 \newcounter{probcnt}
+
 \NewDocumentCommand{\مسئله}{m o}
-	{\stepcounter{probcnt}\bigskip\medskip{
- 	\large \bf پاسخ مسئله‌ی \arabic{probcnt}. \ #1} \ \IfValueTF{#2}{[#2]}{}
- 	\nopagebreak\par\medskip}
+{
+    \stepcounter{probcnt}\bigskip\medskip
+    \addproblem{مسئله \arabic{probcnt}}
+    {\large \bf پاسخ مسئله‌ی \arabic{probcnt}. #1}
+    \IfValueTF{#2}{[#2]}{}
+    \nopagebreak\par\medskip
+}
+
+% اضافه کردن هر \subsection به فهرست
+\newcommand{\subsectionaddtolist}[1]{
+    \subsection*{#1}
+    \addproblem{\quad #1} % اضافه کردن عنوان \subsection به فهرست مسائل
+}
+
+
 
 \newcommand{\fqed}[1]{\leavevmode\unskip\nobreak\quad\hspace*{\fill}{\ensuremath{#1}}}
 
