@@ -1,19 +1,21 @@
-# CE{Code of Course}-{Short Name of Course}
-Solutions to Prof. {Name of Prof}'s CE{Code of Course}: {Full Name of Course} ({Name of Uni} - {Semester} {Year}) Assignments
+# CE474-SE
+Solutions to Prof. {Name of Prof}'s CE474: Software Engineering (Sharif University of Technology, Fall 2024) Assignments
 
 ## Overview
 
-This repository contains solutions to the assignments for the CE{Code of Course}: {Full Name of Course} course at the {Name of Uni}, {Semester} {Year}, taught by Prof. {Name of Prof}.
+This repository contains solutions to the assignments for the CE474: Software Engineering course at the Sharif University of Technology, Fall 2024, taught by Dr. Rivadeh.
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Assignments](#assignments)
-- [Exams](#exams)
-- [Slides](#slides)
-- [Notes](#notes)
-- [Source](#source)
-- [Maintainer](#maintainer)
+- [CE474-SE](#ce474-se)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Assignments](#assignments)
+  - [Exams](#exams)
+  - [Slides](#slides)
+  - [Notes](#notes)
+  - [Source](#source)
+  - [Maintainer](#maintainer)
 
 ## Assignments
 
