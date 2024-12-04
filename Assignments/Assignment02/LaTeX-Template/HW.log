@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  4 DEC 2024 18:03
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.20)  4 DEC 2024 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1215,7 +1215,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.76752pt}.
 
-[8] (./questions/3.tex)
+[8] (./questions/3.tex
+File: 1.png Graphic file (type bmp)
+<1.png>
+File: 2.png Graphic file (type bmp)
+<2.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.76752pt, for example:
@@ -1223,7 +1228,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.76752pt}.
 
-[9] 
+[9]
+File: 3.png Graphic file (type bmp)
+<3.png>
+File: 4.png Graphic file (type bmp)
+<4.png>
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.76752pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.76752pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.76752pt}.
+
+[10] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./HW.aux)
 
@@ -1233,12 +1251,12 @@ Package rerunfilecheck Info: File `HW.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27029 strings out of 476683
- 508847 string characters out of 5807575
+ 27062 strings out of 476683
+ 509220 string characters out of 5807575
  1862012 words of memory out of 5000000
- 46738 multiletter control sequences out of 15000+600000
+ 46770 multiletter control sequences out of 15000+600000
  514658 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  90i,11n,101p,1408b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on HW.pdf (9 pages).
+Output written on HW.pdf (10 pages).
